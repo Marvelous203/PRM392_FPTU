@@ -10,7 +10,6 @@ import com.example.lab1.R
 import com.example.lab1.model.Product
 import java.text.NumberFormat
 import java.util.*
-import com.bumptech.glide.Glide
 
 class ProductAdapter(
     private var products: List<Product>,
@@ -41,7 +40,14 @@ class ProductAdapter(
         when (product.id) {
             1 -> holder.ivProductImage.setImageResource(R.drawable.product_iphone)
             2 -> holder.ivProductImage.setImageResource(R.drawable.product_samsung)
-            // ... các sản phẩm khác
+            3 -> holder.ivProductImage.setImageResource(R.drawable.product_macbook)
+            4 -> holder.ivProductImage.setImageResource(R.drawable.product_ipad)
+            5 -> holder.ivProductImage.setImageResource(R.drawable.product_airpods)
+            6 -> holder.ivProductImage.setImageResource(R.drawable.product_watch)
+            7 -> holder.ivProductImage.setImageResource(R.drawable.product_dell)
+            8 -> holder.ivProductImage.setImageResource(R.drawable.product_sony)
+            9 -> holder.ivProductImage.setImageResource(R.drawable.product_nintendo)
+            10 -> holder.ivProductImage.setImageResource(R.drawable.product_logitech)
             else -> holder.ivProductImage.setImageResource(R.drawable.ic_person)
         }
         

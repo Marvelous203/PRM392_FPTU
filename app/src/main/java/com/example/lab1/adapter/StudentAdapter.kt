@@ -37,7 +37,20 @@ class StudentAdapter(private val context: Context, private val students: List<St
         }
         
         val student = students[position]
-        holder.ivAvatar.setImageResource(student.avatarResId)
+        
+        // Sử dụng hình ảnh khác nhau dựa trên ID
+        when (student.id) {
+            1 -> holder.ivAvatar.setImageResource(R.drawable.person_1)
+            2 -> holder.ivAvatar.setImageResource(R.drawable.person_2)
+            3 -> holder.ivAvatar.setImageResource(R.drawable.person_3)
+            4 -> holder.ivAvatar.setImageResource(R.drawable.person_4)
+            5 -> holder.ivAvatar.setImageResource(R.drawable.person_5)
+            6 -> holder.ivAvatar.setImageResource(R.drawable.person_6)
+            7 -> holder.ivAvatar.setImageResource(R.drawable.person_7)
+            8 -> holder.ivAvatar.setImageResource(R.drawable.person_8)
+            else -> holder.ivAvatar.setImageResource(R.drawable.ic_person)
+        }
+        
         holder.tvName.text = student.name
         holder.tvEmail.text = student.email
         holder.tvPhone.text = student.phone

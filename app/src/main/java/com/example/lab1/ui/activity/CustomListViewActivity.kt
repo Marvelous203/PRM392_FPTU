@@ -15,14 +15,14 @@ class CustomListViewActivity : AppCompatActivity() {
     private lateinit var adapter: StudentAdapter
     
     private val students = listOf(
-        Student(1, "Nguyễn Văn An", "an.nguyen@email.com", "0123456789", R.drawable.ic_person),
-        Student(2, "Trần Thị Bình", "binh.tran@email.com", "0987654321", R.drawable.ic_person),
-        Student(3, "Lê Văn Cường", "cuong.le@email.com", "0111222333", R.drawable.ic_person),
-        Student(4, "Phạm Thị Dung", "dung.pham@email.com", "0444555666", R.drawable.ic_person),
-        Student(5, "Hoàng Văn Em", "em.hoang@email.com", "0777888999", R.drawable.ic_person),
-        Student(6, "Vũ Thị Phương", "phuong.vu@email.com", "0333444555", R.drawable.ic_person),
-        Student(7, "Đặng Văn Giang", "giang.dang@email.com", "0666777888", R.drawable.ic_person),
-        Student(8, "Bùi Thị Hoa", "hoa.bui@email.com", "0999000111", R.drawable.ic_person)
+        Student(1, "Nguyễn Văn An", "an.nguyen@email.com", "0123456789"),
+        Student(2, "Trần Thị Bình", "binh.tran@email.com", "0987654321"),
+        Student(3, "Lê Văn Cường", "cuong.le@email.com", "0111222333"),
+        Student(4, "Phạm Thị Dung", "dung.pham@email.com", "0444555666"),
+        Student(5, "Hoàng Văn Em", "em.hoang@email.com", "0777888999"),
+        Student(6, "Vũ Thị Phương", "phuong.vu@email.com", "0333444555"),
+        Student(7, "Đặng Văn Giang", "giang.dang@email.com", "0666777888"),
+        Student(8, "Bùi Thị Hoa", "hoa.bui@email.com", "0999000111")
     )
     
     override fun onCreate(savedInstanceState: Bundle?) {

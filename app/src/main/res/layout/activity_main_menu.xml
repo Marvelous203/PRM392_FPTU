@@ -21,7 +21,7 @@
         android:id="@+id/btn_lab1"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:text="LAB 1"
+        android:text="LAB 1 - My View"
         android:textSize="18sp"
         android:textStyle="bold"
         android:layout_marginBottom="16dp" />
@@ -30,7 +30,7 @@
         android:id="@+id/btn_lab2"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:text="LAB 2"
+        android:text="LAB 2 - Random Number"
         android:textSize="18sp"
         android:textStyle="bold"
         android:layout_marginBottom="16dp" />
@@ -47,7 +47,7 @@
         android:id="@+id/btn_lab4"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:text="LAB 4 - ListView"
+        android:text="LAB 4 - Food and Drink"
         android:textSize="18sp"
         android:textStyle="bold"
         android:layout_marginBottom="16dp" />
