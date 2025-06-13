@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/white">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tv_login_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:text="Sign In Form"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+
+    <!-- Username Input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_login_title"
+        android:layout_marginTop="48dp"
+        android:hint="Username"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Password Input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/til_username"
+        android:layout_marginTop="16dp"
+        android:hint="Password"
+        app:passwordToggleEnabled="true"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Create Account Text -->
+    <TextView
+        android:id="@+id/tv_create_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/til_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Not account yet? Create one"
+        android:textColor="@color/Blue"
+        android:textSize="14sp" />
+
+    <!-- OR Text -->
+    <TextView
+        android:id="@+id/tv_or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_create_account"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="OR"
+        android:textColor="@color/Gray"
+        android:textSize="14sp" />
+
+    <!-- Sign In Button -->
+    <Button
+        android:id="@+id/btn_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_below="@id/tv_or"
+        android:layout_marginTop="24dp"
+        android:text="SIGN IN"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Register Button -->
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_below="@id/btn_sign_in"
+        android:layout_marginTop="16dp"
+        android:text="REGISTER"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        style="?android:attr/buttonBarButtonStyle" />
+
+    <!-- Back Button -->
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:text="Back to Lab1 Menu"
+        style="?android:attr/buttonBarButtonStyle" />
+
+</RelativeLayout>

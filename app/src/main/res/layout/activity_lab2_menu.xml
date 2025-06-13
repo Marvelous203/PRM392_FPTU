@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lab 2 Menu"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btn_random_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Random Number Generator"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btn_calculator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculator"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btn_login_system"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login System"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btn_back_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to Main Menu"
+        android:backgroundTint="@android:color/holo_red_light" />
+
+</LinearLayout>
