@@ -82,6 +82,15 @@
             android:text="LAB 7 - Camera Permission"
             android:textSize="18sp"
             android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+        
+        <Button
+            android:id="@+id/btn_lab8"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="LAB 8 - Send Notification"
+            android:textSize="18sp"
+            android:textStyle="bold"
             android:layout_marginBottom="24dp" />
             
     </LinearLayout>

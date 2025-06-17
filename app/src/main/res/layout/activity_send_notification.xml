@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send Notification Demo"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tiêu đề notification:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/et_notification_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Nhập tiêu đề notification"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:background="#F0F0F0"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nội dung notification:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/et_notification_message"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:hint="Nhập nội dung notification"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:background="#F0F0F0"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btn_send_notification"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="SEND NOTIFICATION"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tv_notification_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Số notification đã gửi: 0"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:padding="16dp"
+            android:background="#E0E0E0"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btn_back_notification"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Back to Lab8 Menu"
+            android:textSize="18sp"
+            android:backgroundTint="@android:color/holo_red_light" />
+
+    </LinearLayout>
+</ScrollView>
