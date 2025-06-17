@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Camera Permission Demo"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="24dp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/tv_permission_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="❌ Chưa có quyền camera"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textAlignment="center"
+        android:padding="16dp"
+        android:background="#F0F0F0"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btn_request_permission"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Yêu cầu quyền Camera"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btn_take_photo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Chụp ảnh"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:enabled="false"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ảnh đã chụp:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="12dp" />
+
+    <ImageView
+        android:id="@+id/iv_captured_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#E0E0E0"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="Captured Image" />
+
+    <Button
+        android:id="@+id/btn_back_camera"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Back to Lab7 Menu"
+        android:textSize="18sp"
+        android:backgroundTint="@android:color/holo_red_light" />
+
+    <!-- Thêm vào layout -->
+    <Button
+        android:id="@+id/btn_request_all_permissions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Request All Permissions"
+        android:layout_margin="8dp" />
+    
+    <Button
+        android:id="@+id/btn_open_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Settings"
+        android:layout_margin="8dp" />
+</LinearLayout>

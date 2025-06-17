@@ -3,6 +3,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.lab1">
 
+    <!-- Camera permission -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    
+    <!-- Location permissions -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    
+    <!-- Storage permissions -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    
+    <!-- Microphone permission -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    
+    <!-- Contacts permission -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    
+    <!-- Phone permission -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    
+    <!-- SMS permission -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -67,22 +93,31 @@
         <activity
             android:name=".ui.activity.CustomListViewActivity"
             android:exported="false" />
-        <!-- Thêm các activity này vào trong thẻ <application> -->
+            
         <activity
             android:name=".ui.activity.Lab4MenuActivity"
             android:exported="false" />
+            
         <activity
             android:name=".ui.activity.FoodActivity"
             android:exported="false" />
+            
         <activity
             android:name=".ui.activity.DrinkActivity"
             android:exported="false" />
-        <activity android:name=".ui.activity.Lab5MenuActivity" 
+            
+        <activity 
+            android:name=".ui.activity.Lab5MenuActivity" 
             android:exported="false" />
-        <activity android:name=".ui.activity.StudentRecyclerViewActivity" 
+            
+        <activity 
+            android:name=".ui.activity.StudentRecyclerViewActivity" 
             android:exported="false" />
-        <activity android:name=".ui.activity.ProductRecyclerViewActivity" 
+            
+        <activity 
+            android:name=".ui.activity.ProductRecyclerViewActivity" 
             android:exported="false" />
+            
         <activity
             android:name=".ui.activity.LoginActivity"
             android:exported="false" />
@@ -91,15 +126,28 @@
         <activity
             android:name=".ui.activity.Lab6MenuActivity"
             android:exported="false" />
+            
         <activity
             android:name=".ui.activity.OptionMenuActivity"
             android:exported="false" />
+            
         <activity
             android:name=".ui.activity.PopupMenuActivity"
             android:exported="false" />
+            
         <activity
             android:name=".ui.activity.ContextMenuActivity"
             android:exported="false" />
-        </application>
+            
+        <!-- Lab 7 Activities -->
+        <activity
+            android:name=".ui.activity.Lab7MenuActivity"
+            android:exported="false" />
+            
+        <activity
+            android:name=".ui.activity.CameraPermissionActivity"
+            android:exported="false" />
+            
+    </application>
 
 </manifest>

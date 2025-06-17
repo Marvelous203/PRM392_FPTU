@@ -1,73 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="24dp"
-    android:gravity="center"
     android:background="@color/white">
 
-    <TextView
-        android:id="@+id/tv_main_title"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Main Menu"
-        android:textSize="32sp"
-        android:textStyle="bold"
-        android:textColor="@color/black"
-        android:layout_marginBottom="48dp" />
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center">
 
-    <Button
-        android:id="@+id/btn_lab1"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:text="LAB 1 - My View"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_marginBottom="16dp" />
-    
-    <Button
-        android:id="@+id/btn_lab2"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:text="LAB 2 - Random Number"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_marginBottom="16dp" />
-    
-    <Button
-        android:id="@+id/btn_lab3"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:text="LAB 3 - Calculator"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_marginBottom="16dp" />
-    
-    <Button
-        android:id="@+id/btn_lab4"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:text="LAB 4 - Food and Drink"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_marginBottom="16dp" />
-    
-    <Button
-        android:id="@+id/btn_lab5"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:text="LAB 5 - RecyclerView"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_marginBottom="16dp" />
-    
-    <Button
-        android:id="@+id/btn_lab6"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:text="LAB 6 - Menu Types"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tv_main_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Main Menu"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="48dp" />
+
+        <Button
+            android:id="@+id/btn_lab1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="LAB 1 - My View"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
         
-</LinearLayout>
+        <Button
+            android:id="@+id/btn_lab2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="LAB 2 - Random Number"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+        
+        <Button
+            android:id="@+id/btn_lab3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="LAB 3 - Calculator"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+        
+        <Button
+            android:id="@+id/btn_lab4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="LAB 4 - Food and Drink"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+        
+        <Button
+            android:id="@+id/btn_lab5"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="LAB 5 - RecyclerView"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+        
+        <Button
+            android:id="@+id/btn_lab6"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="LAB 6 - Menu Types"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+        
+        <Button
+            android:id="@+id/btn_lab7"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="LAB 7 - Camera Permission"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+            
+    </LinearLayout>
+    
+</ScrollView>
