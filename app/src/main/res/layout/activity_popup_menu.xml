@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Popup Menu Demo"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="24dp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhấn vào button bên dưới để hiển thị Popup Menu"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="24dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btn_show_popup"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Show Popup Menu"
+        android:textSize="18sp"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/tv_popup_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chưa chọn menu nào"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAlignment="center"
+        android:padding="16dp"
+        android:background="#F0F0F0"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btn_back_popup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to Lab6 Menu"
+        android:backgroundTint="@android:color/holo_red_light" />
+
+</LinearLayout>

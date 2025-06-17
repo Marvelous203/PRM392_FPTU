@@ -13,54 +13,61 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lab1"
         tools:targetApi="31">
-        <activity
-            android:name=".ui.activity.MainActivity"
-            android:exported="false"
-            android:label="@string/title_activity_main"
-            android:theme="@style/Theme.Lab1" />
+        
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.Lab1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
         <activity
             android:name=".ui.activity.MainMenuActivity"
             android:exported="false" />
+            
         <activity
             android:name=".ui.activity.Lab1MenuActivity"
             android:exported="false" />
+            
         <activity
             android:name=".ui.activity.MyViewActivity"
             android:exported="false" />
+            
         <activity
             android:name=".ui.activity.SubjectListActivity"
             android:exported="false" />
+            
         <activity
             android:name=".ui.activity.Lab2MenuActivity"
             android:exported="false" />
+            
         <activity
             android:name=".ui.activity.RandomNumberActivity"
             android:exported="false" />
+            
         <activity
             android:name=".ui.activity.CalculatorActivity"
             android:exported="false" />
+            
         <activity
             android:name=".ui.activity.LoginSystemActivity"
             android:exported="false" />
+            
         <activity
             android:name=".ui.activity.Lab3MenuActivity"
             android:exported="false" />
+            
         <activity
             android:name=".ui.activity.BasicListViewActivity"
             android:exported="false" />
+            
         <activity
             android:name=".ui.activity.CustomListViewActivity"
-            android:exported="false" /> <!-- Thêm các dòng này vào trong thẻ <application> -->
+            android:exported="false" />
+        <!-- Thêm các activity này vào trong thẻ <application> -->
         <activity
             android:name=".ui.activity.Lab4MenuActivity"
             android:exported="false" />
@@ -70,12 +77,29 @@
         <activity
             android:name=".ui.activity.DrinkActivity"
             android:exported="false" />
-        <activity android:name=".ui.activity.Lab5MenuActivity" />
-        <activity android:name=".ui.activity.StudentRecyclerViewActivity" />
-        <activity android:name=".ui.activity.ProductRecyclerViewActivity" />
+        <activity android:name=".ui.activity.Lab5MenuActivity" 
+            android:exported="false" />
+        <activity android:name=".ui.activity.StudentRecyclerViewActivity" 
+            android:exported="false" />
+        <activity android:name=".ui.activity.ProductRecyclerViewActivity" 
+            android:exported="false" />
         <activity
             android:name=".ui.activity.LoginActivity"
             android:exported="false" />
-    </application>
+            
+        <!-- Lab 6 Activities -->
+        <activity
+            android:name=".ui.activity.Lab6MenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.OptionMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.PopupMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.ContextMenuActivity"
+            android:exported="false" />
+        </application>
 
 </manifest>

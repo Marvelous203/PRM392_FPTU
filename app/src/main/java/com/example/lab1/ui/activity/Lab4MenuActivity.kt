@@ -87,18 +87,18 @@ class Lab4MenuActivity : AppCompatActivity() {
         var totalPrice = 0
         
         if (selectedFood != null) {
-            summaryText.append("🍜 $selectedFood: ${formatPrice(foodPrice)}\n")
+            summaryText.append(" $selectedFood: ${formatPrice(foodPrice)}\n")
             totalPrice += foodPrice
         }
         
         if (selectedDrink != null) {
-            summaryText.append("🥤 $selectedDrink: ${formatPrice(drinkPrice)}\n")
+            summaryText.append(" $selectedDrink: ${formatPrice(drinkPrice)}\n")
             totalPrice += drinkPrice
         }
         
         if (totalPrice > 0) {
             summaryText.append("\n" + "=".repeat(25) + "\n")
-            summaryText.append("💰 TỔNG TIỀN: ${formatPrice(totalPrice)}")
+            summaryText.append(" TỔNG TIỀN: ${formatPrice(totalPrice)}")
         } else {
             summaryText.append("Chưa có món nào được chọn")
         }

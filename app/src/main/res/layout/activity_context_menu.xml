@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Context Menu - Chọn Màu"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="24dp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhấn vào button 'Chọn Màu' bên dưới để chọn màu mới"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="24dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/tv_context_target"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text=""
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Button chọn màu duy nhất -->
+    <Button
+        android:id="@+id/btn_choose_color"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Chọn Màu"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/tv_context_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chưa chọn màu nào"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAlignment="center"
+        android:padding="16dp"
+        android:background="#F0F0F0"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btn_back_context"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to Lab6 Menu"
+        android:backgroundTint="@android:color/holo_red_light" />
+
+</LinearLayout>

@@ -16,6 +16,7 @@ class MainMenuActivity : AppCompatActivity() {
         val btnLab3 = findViewById<Button>(R.id.btn_lab3)
         val btnLab4 = findViewById<Button>(R.id.btn_lab4)
         val btnLab5 = findViewById<Button>(R.id.btn_lab5)
+        val btnLab6 = findViewById<Button>(R.id.btn_lab6)
         
         btnLab1.setOnClickListener {
             startActivity(Intent(this, Lab1MenuActivity::class.java))
@@ -35,6 +36,10 @@ class MainMenuActivity : AppCompatActivity() {
         
         btnLab5.setOnClickListener {
             startActivity(Intent(this, Lab5MenuActivity::class.java))
+        }
+        
+        btnLab6.setOnClickListener {
+            startActivity(Intent(this, Lab6MenuActivity::class.java))
         }
     }
 }
