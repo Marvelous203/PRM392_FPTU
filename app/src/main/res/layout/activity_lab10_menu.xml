@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LAB 10 - API with Retrofit"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sử dụng Retrofit để thực hiện các thao tác CRUD với API cho quản lý nhân viên (Trainee). Ứng dụng sẽ kết nối với MockAPI để thực hiện các chức năng thêm, sửa, xóa và hiển thị danh sách nhân viên."
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="32dp"
+        android:lineSpacingExtra="4dp" />
+
+    <Button
+        android:id="@+id/btn_trainee_manager"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="QUẢN LÝ NHÂN VIÊN"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btn_back_lab10"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="BACK TO MAIN MENU"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:backgroundTint="@android:color/darker_gray"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

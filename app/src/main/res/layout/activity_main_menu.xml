@@ -91,6 +91,26 @@
             android:text="LAB 8 - Send Notification"
             android:textSize="18sp"
             android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+        
+        <Button
+            android:id="@+id/btn_lab9"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="LAB 9 - SQLite CRUD"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:backgroundTint="@android:color/holo_purple"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btn_lab10"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="LAB 10 - API with Retrofit"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:backgroundTint="@android:color/holo_blue_bright"
             android:layout_marginBottom="24dp" />
             
     </LinearLayout>

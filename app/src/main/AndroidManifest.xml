@@ -6,6 +6,9 @@
     <!-- Camera permission -->
     <uses-permission android:name="android.permission.CAMERA" />
     
+    <!-- Internet permission for API calls -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    
     <!-- Location permissions -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -131,6 +134,32 @@
             
         <activity
             android:name=".ui.activity.SendNotificationActivity"
+            android:exported="false" />
+            
+        <!-- Lab 9 Activities -->
+        <activity
+            android:name=".ui.activity.Lab9MenuActivity"
+            android:exported="false" />
+            
+        <activity
+            android:name=".ui.activity.TaskManagerActivity"
+            android:exported="false" />
+            
+        <activity
+            android:name=".ui.activity.AddEditTaskActivity"
+            android:exported="false" />
+            
+        <!-- Lab 10 Activities -->
+        <activity
+            android:name=".ui.activity.Lab10MenuActivity"
+            android:exported="false" />
+            
+        <activity
+            android:name=".ui.activity.TraineeManagerActivity"
+            android:exported="false" />
+            
+        <activity
+            android:name=".ui.activity.AddEditTraineeActivity"
             android:exported="false" />
             
     </application>
